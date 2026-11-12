@@ -10,10 +10,12 @@
 </style></head><body>
 <button id="c">Connect to TailLift</button>
 <div id="s">Not connected</div>
-<button class="b" data-n="1" style="background:#27ae60">BUTTON 1</button>
-<button class="b" data-n="2" style="background:#2980b9">BUTTON 2</button>
-<button class="b" data-n="3" style="background:#e1a100;color:#000">BUTTON 3</button>
-<button class="b" data-n="4" style="background:#c0392b">BUTTON 4</button>
+ <button class="b" data-n="2" style="background:#2980b9">Swing Up ↺</button>
+<button class="b" data-n="1" style="background:#27ae60">Up ⇪</button>
+
+
+<button class="b" data-n="4" style="background:#c0392b">Down ⇩</button>
+ <button class="b" data-n="3" style="background:#e1a100;color:#000">Swing Down ↻</button>
 <script>
 const SVC='6e400001-b5a3-f393-e0a9-e50e24dcca9e', CH='6e400002-b5a3-f393-e0a9-e50e24dcca9e';
 let ch=null, cur=0, timer=null; const st=document.getElementById('s');
